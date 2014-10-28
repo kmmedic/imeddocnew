@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="44345" started-at="2014-10-25T12:19:30Z" finished-at="2014-10-25T12:20:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="44345" started-at="2014-10-25T12:19:30Z" finished-at="2014-10-25T12:20:15Z">
+      <class name="testNGfiles.Sample">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testNGfiles.Sample@eb73e]" name="setup" is-config="true" duration-ms="27038" started-at="2014-10-25T17:49:30Z" finished-at="2014-10-25T17:49:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="EditGeneralNotes()[pri:0, instance:testNGfiles.Sample@eb73e]" name="EditGeneralNotes" duration-ms="16885" started-at="2014-10-25T17:49:57Z" finished-at="2014-10-25T17:50:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditGeneralNotes -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:testNGfiles.Sample@eb73e]" name="stopDriver" is-config="true" duration-ms="406" started-at="2014-10-25T17:50:14Z" finished-at="2014-10-25T17:50:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- testNGfiles.Sample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

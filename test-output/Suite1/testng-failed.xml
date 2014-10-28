@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="Failed suite [Suite1]">
+  <test name="test1(failed)">
+    <groups>
+      <run>
+        <include name="functional"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testNGfiles.AddToWaiting">
+        <methods>
+          <include name="receiveData" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testNGfiles.AddToWaiting -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" verbose="2" preserve-order="true">
+
+    <test name="test1"  allow-return-values="true" group-by-instances="true">
+    
+    	<groups>
+    		<run>
+    			<include name="functional"></include>
+    		</run>
+    	</groups>
+    	
+		<classes>
+	    	<class name="testNGfiles.RunTests"></class>
+	    	<class name="testNGfiles.Loadurl"></class>
+	    	<class name="testNGfiles.Sign_In"></class>
+	    	<class name="testNGfiles.RCSampleTest"></class>
+	    	<class name="testNGfiles.GotoPatient"></class>
+	    	<class name="testNGfiles.NextofKin"></class>
+	    	<class name="testNGfiles.PrintLabel"></class>
+	    	<class name="testNGfiles.Hospital"></class>
+	    	<class name="testNGfiles.MoreTest"></class>
+	    	<class name="testNGfiles.AddToWaiting"></class>
+	    	<class name="testNGfiles.MedicalCertificate"></class>
+	    	<class name="testNGfiles.Patient_Report"></class>
+	    	<class name="testNGfiles.PatientDiagnosis"></class>
+	    	<class name="testNGfiles.PatientGPAddition"></class>
+	    	<class name="testNGfiles.PatientSummary"></class>
+	    	<class name="testNGfiles.PatientPersonalHistory"></class>
+	    	<class name="testNGfiles.PatientMedicalHistory"></class>
+	    	<class name="testNGfiles.EndUp"></class>
+		</classes>
+		
+    </test>
+    
+</suite>

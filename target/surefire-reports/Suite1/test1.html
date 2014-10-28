@@ -1,0 +1,214 @@
+<html>
+<head>
+<title>TestNG:  test1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>test1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>27/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 23 12:11:25 IST 2014</td>
+</tr>
+<tr><td>Total time:</td><td>998 seconds (998910 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>functional </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testNGfiles.MedicalCertificate.DeleteRecord()'><b>DeleteRecord</b><br>Test class: testNGfiles.MedicalCertificate</td>
+<td></td>
+<td>21</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.PatientSummary.DeleteRecord()'><b>DeleteRecord</b><br>Test class: testNGfiles.PatientSummary</td>
+<td></td>
+<td>5</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.PatientMedicalHistory.EditMedicalHistoryData()'><b>EditMedicalHistoryData</b><br>Test class: testNGfiles.PatientMedicalHistory</td>
+<td></td>
+<td>33</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.PatientPersonalHistory.EditPersonalHistory()'><b>EditPersonalHistory</b><br>Test class: testNGfiles.PatientPersonalHistory<br>Parameters: [[Ljava.lang.Object;@19271b2</td>
+<td></td>
+<td>39</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.PatientSummary.EditRecord()'><b>EditRecord</b><br>Test class: testNGfiles.PatientSummary<br>Parameters: [[Ljava.lang.Object;@16685ee</td>
+<td></td>
+<td>11</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.PatientDiagnosis.PatientDiagnosisAddition()'><b>PatientDiagnosisAddition</b><br>Test class: testNGfiles.PatientDiagnosis<br>Parameters: [[Ljava.lang.Object;@1e2d842</td>
+<td></td>
+<td>21</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.GotoPatient.PatientPage()'><b>PatientPage</b><br>Test class: testNGfiles.GotoPatient</td>
+<td></td>
+<td>6</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.Patient_Report.PrintReport()'><b>PrintReport</b><br>Test class: testNGfiles.Patient_Report<br>Parameters: [[Ljava.lang.Object;@1e3fbfa</td>
+<td></td>
+<td>72</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.PrintLabel.ReadPDFContent()'><b>ReadPDFContent</b><br>Test class: testNGfiles.PrintLabel</td>
+<td></td>
+<td>64</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.PatientSummary.ReceiveComplaintData()'><b>ReceiveComplaintData</b><br>Test class: testNGfiles.PatientSummary<br>Parameters: [[Ljava.lang.Object;@b3e75d</td>
+<td></td>
+<td>24</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.PatientGPAddition.ReceiveGpData()'><b>ReceiveGpData</b><br>Test class: testNGfiles.PatientGPAddition<br>Parameters: [[Ljava.lang.Object;@11aaeee</td>
+<td></td>
+<td>35</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.PatientMedicalHistory.ReceiveMedicalHistoryData()'><b>ReceiveMedicalHistoryData</b><br>Test class: testNGfiles.PatientMedicalHistory<br>Parameters: [[Ljava.lang.Object;@d2b2ce</td>
+<td></td>
+<td>32</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.PatientPersonalHistory.ReceivePersonalHistoryData()'><b>ReceivePersonalHistoryData</b><br>Test class: testNGfiles.PatientPersonalHistory<br>Parameters: [[Ljava.lang.Object;@d8fc09</td>
+<td></td>
+<td>27</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.MedicalCertificate.editData()'><b>editData</b><br>Test class: testNGfiles.MedicalCertificate<br>Parameters: [[Ljava.lang.Object;@18ad735</td>
+<td></td>
+<td>31</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.Hospital.editHospitalData()'><b>editHospitalData</b><br>Test class: testNGfiles.Hospital<br>Parameters: [[Ljava.lang.Object;@37015f</td>
+<td></td>
+<td>17</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.NextofKin.editNOKDetails()'><b>editNOKDetails</b><br>Test class: testNGfiles.NextofKin</td>
+<td></td>
+<td>24</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.RCSampleTest.editPatient()'><b>editPatient</b><br>Test class: testNGfiles.RCSampleTest</td>
+<td></td>
+<td>46</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.Loadurl.getUrl()'><b>getUrl</b><br>Test class: testNGfiles.Loadurl</td>
+<td></td>
+<td>3</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.Sign_In.getValue()'><b>getValue</b><br>Test class: testNGfiles.Sign_In<br>Parameters: admin, a, null</td>
+<td></td>
+<td>18</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.MoreTest.receiveData()'><b>receiveData</b><br>Test class: testNGfiles.MoreTest<br>Parameters: 21755, Yes, No</td>
+<td></td>
+<td>13</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.AddToWaiting.receiveData()'><b>receiveData</b><br>Test class: testNGfiles.AddToWaiting<br>Parameters: [[Ljava.lang.Object;@13b168c</td>
+<td></td>
+<td>59</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.MedicalCertificate.receiveData()'><b>receiveData</b><br>Test class: testNGfiles.MedicalCertificate<br>Parameters: [[Ljava.lang.Object;@454d3e</td>
+<td></td>
+<td>29</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.Hospital.receiveHospitalData()'><b>receiveHospitalData</b><br>Test class: testNGfiles.Hospital<br>Parameters: [[Ljava.lang.Object;@1d23619</td>
+<td></td>
+<td>18</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.NextofKin.receiveNOKData()'><b>receiveNOKData</b><br>Test class: testNGfiles.NextofKin<br>Parameters: [Ljava.lang.Object;@1ddd36e</td>
+<td></td>
+<td>25</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.RCSampleTest.receivePatientData()'><b>receivePatientData</b><br>Test class: testNGfiles.RCSampleTest<br>Parameters: [Ljava.lang.Object;@63e4f2</td>
+<td></td>
+<td>236</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.RunTests.startServer()'><b>startServer</b><br>Test class: testNGfiles.RunTests</td>
+<td></td>
+<td>9</td>
+<td>testNGfiles.RunTests@162bdd8</td></tr>
+<tr>
+<td title='testNGfiles.EndUp.stopServer()'><b>stopServer</b><br>Test class: testNGfiles.EndUp</td>
+<td></td>
+<td>68</td>
+<td>null</td></tr>
+</table><p>
+</body>
+</html>

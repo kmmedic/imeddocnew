@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="KMM-DEV-10" name="testNGfiles.RunTests" tests="1" failures="0" timestamp="9 Sep 2014 06:48:19 GMT" time="3.183" errors="0">
+  <testcase name="startServer" time="3.167" classname="testNGfiles.RunTests"/>
+</testsuite>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite1]">
+  <test name="test1(failed)" preserve-order="true">
+    <groups>
+      <run>
+        <include name="functional"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testNGfiles.MedicalCertificate">
+        <methods>
+          <include name="editData" invocation-numbers="0"/>
+          <include name="receiveData" invocation-numbers="0"/>
+        </methods>
+      </class>
+      <class name="testNGfiles.RCSampleTest">
+        <methods>
+          <include name="editPatient"/>
+        </methods>
+      </class>
+      <class name="testNGfiles.AddToWaiting">
+        <methods>
+          <include name="receiveData" invocation-numbers="0"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

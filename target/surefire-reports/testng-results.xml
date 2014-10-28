@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="27" passed="27">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="998910" started-at="2014-10-23T12:11:25Z" finished-at="2014-10-23T12:28:04Z">
+    <groups>
+      <group name="functional">
+        <method signature="AddToWaiting.receiveData([[Ljava.lang.Object;)[pri:0, instance:null]" name="receiveData" class="testNGfiles.AddToWaiting"/>
+        <method signature="GotoPatient.PatientPage()[pri:0, instance:null]" name="PatientPage" class="testNGfiles.GotoPatient"/>
+        <method signature="Hospital.receiveHospitalData([[Ljava.lang.Object;)[pri:0, instance:null]" name="receiveHospitalData" class="testNGfiles.Hospital"/>
+        <method signature="Hospital.editHospitalData([[Ljava.lang.Object;)[pri:0, instance:null]" name="editHospitalData" class="testNGfiles.Hospital"/>
+        <method signature="Loadurl.getUrl()[pri:0, instance:null]" name="getUrl" class="testNGfiles.Loadurl"/>
+        <method signature="MedicalCertificate.receiveData([[Ljava.lang.Object;)[pri:0, instance:null]" name="receiveData" class="testNGfiles.MedicalCertificate"/>
+        <method signature="MedicalCertificate.editData([[Ljava.lang.Object;)[pri:0, instance:null]" name="editData" class="testNGfiles.MedicalCertificate"/>
+        <method signature="MedicalCertificate.DeleteRecord()[pri:0, instance:null]" name="DeleteRecord" class="testNGfiles.MedicalCertificate"/>
+        <method signature="NextofKin.editNOKDetails()[pri:2, instance:null]" name="editNOKDetails" class="testNGfiles.NextofKin"/>
+        <method signature="NextofKin.receiveNOKData([Ljava.lang.Object;)[pri:1, instance:null]" name="receiveNOKData" class="testNGfiles.NextofKin"/>
+        <method signature="PatientGPAddition.ReceiveGpData([[Ljava.lang.Object;)[pri:0, instance:null]" name="ReceiveGpData" class="testNGfiles.PatientGPAddition"/>
+        <method signature="PatientMedicalHistory.ReceiveMedicalHistoryData([[Ljava.lang.Object;)[pri:0, instance:null]" name="ReceiveMedicalHistoryData" class="testNGfiles.PatientMedicalHistory"/>
+        <method signature="PatientMedicalHistory.EditMedicalHistoryData()[pri:0, instance:null]" name="EditMedicalHistoryData" class="testNGfiles.PatientMedicalHistory"/>
+        <method signature="PatientPersonalHistory.ReceivePersonalHistoryData([[Ljava.lang.Object;)[pri:0, instance:null]" name="ReceivePersonalHistoryData" class="testNGfiles.PatientPersonalHistory"/>
+        <method signature="PatientPersonalHistory.EditPersonalHistory([[Ljava.lang.Object;)[pri:0, instance:null]" name="EditPersonalHistory" class="testNGfiles.PatientPersonalHistory"/>
+        <method signature="PatientSummary.ReceiveComplaintData([[Ljava.lang.Object;)[pri:0, instance:null]" name="ReceiveComplaintData" class="testNGfiles.PatientSummary"/>
+        <method signature="PatientSummary.EditRecord([[Ljava.lang.Object;)[pri:0, instance:null]" name="EditRecord" class="testNGfiles.PatientSummary"/>
+        <method signature="PatientSummary.DeleteRecord()[pri:0, instance:null]" name="DeleteRecord" class="testNGfiles.PatientSummary"/>
+        <method signature="RCSampleTest.editPatient()[pri:2, instance:null]" name="editPatient" class="testNGfiles.RCSampleTest"/>
+        <method signature="RCSampleTest.receivePatientData([Ljava.lang.Object;)[pri:1, instance:null]" name="receivePatientData" class="testNGfiles.RCSampleTest"/>
+        <method signature="RunTests.startServer()[pri:0, instance:testNGfiles.RunTests@162bdd8]" name="startServer" class="testNGfiles.RunTests"/>
+        <method signature="Patient_Report.PrintReport([[Ljava.lang.Object;)[pri:0, instance:null]" name="PrintReport" class="testNGfiles.Patient_Report"/>
+        <method signature="EndUp.stopServer()[pri:0, instance:null]" name="stopServer" class="testNGfiles.EndUp"/>
+        <method signature="PatientDiagnosis.PatientDiagnosisAddition([[Ljava.lang.Object;)[pri:0, instance:null]" name="PatientDiagnosisAddition" class="testNGfiles.PatientDiagnosis"/>
+        <method signature="Sign_In.getValue(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:null]" name="getValue" class="testNGfiles.Sign_In"/>
+        <method signature="MoreTest.receiveData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:null]" name="receiveData" class="testNGfiles.MoreTest"/>
+        <method signature="PrintLabel.ReadPDFContent()[pri:0, instance:null]" name="ReadPDFContent" class="testNGfiles.PrintLabel"/>
+      </group>
+    </groups>
+    <test name="test1" duration-ms="998910" started-at="2014-10-23T12:11:25Z" finished-at="2014-10-23T12:28:04Z">
+      <class name="testNGfiles.PatientMedicalHistory">
+        <test-method status="PASS" signature="ReceiveMedicalHistoryData([[Ljava.lang.Object;)[pri:0, instance:null]" name="ReceiveMedicalHistoryData" duration-ms="32121" started-at="2014-10-23T12:25:50Z" finished-at="2014-10-23T12:26:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[[Ljava.lang.Object;@d2b2ce]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="EditMedicalHistoryData()[pri:0, instance:null]" name="EditMedicalHistoryData" duration-ms="33243" started-at="2014-10-23T12:26:23Z" depends-on-methods="testNGfiles.PatientMedicalHistory.ReceiveMedicalHistoryData" finished-at="2014-10-23T12:26:56Z">
+        </test-method>
+      </class>
+      <class name="testNGfiles.Hospital">
+        <test-method status="PASS" signature="receiveHospitalData([[Ljava.lang.Object;)[pri:0, instance:null]" name="receiveHospitalData" duration-ms="18370" started-at="2014-10-23T12:18:41Z" finished-at="2014-10-23T12:19:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[[Ljava.lang.Object;@1d23619]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="editHospitalData([[Ljava.lang.Object;)[pri:0, instance:null]" name="editHospitalData" duration-ms="17932" started-at="2014-10-23T12:19:00Z" depends-on-methods="testNGfiles.Hospital.receiveHospitalData" finished-at="2014-10-23T12:19:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[[Ljava.lang.Object;@37015f]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+      <class name="testNGfiles.MedicalCertificate">
+        <test-method status="PASS" signature="receiveData([[Ljava.lang.Object;)[pri:0, instance:null]" name="receiveData" duration-ms="29203" started-at="2014-10-23T12:20:30Z" finished-at="2014-10-23T12:20:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[[Ljava.lang.Object;@454d3e]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="editData([[Ljava.lang.Object;)[pri:0, instance:null]" name="editData" duration-ms="31859" started-at="2014-10-23T12:20:59Z" depends-on-methods="testNGfiles.MedicalCertificate.receiveData" finished-at="2014-10-23T12:21:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[[Ljava.lang.Object;@18ad735]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="DeleteRecord()[pri:0, instance:null]" name="DeleteRecord" duration-ms="21035" started-at="2014-10-23T12:21:31Z" depends-on-methods="testNGfiles.MedicalCertificate.editData" finished-at="2014-10-23T12:21:52Z">
+        </test-method>
+      </class>
+      <class name="testNGfiles.Loadurl">
+        <test-method status="PASS" signature="getUrl()[pri:0, instance:null]" name="getUrl" duration-ms="3369" started-at="2014-10-23T12:11:35Z" finished-at="2014-10-23T12:11:38Z">
+        </test-method>
+      </class>
+      <class name="testNGfiles.RunTests">
+        <test-method status="PASS" signature="startServer()[pri:0, instance:testNGfiles.RunTests@162bdd8]" name="startServer" duration-ms="9425" started-at="2014-10-23T12:11:25Z" finished-at="2014-10-23T12:11:35Z">
+        </test-method>
+      </class>
+      <class name="testNGfiles.RCSampleTest">
+        <test-method status="PASS" signature="receivePatientData([Ljava.lang.Object;)[pri:1, instance:null]" name="receivePatientData" duration-ms="236980" started-at="2014-10-23T12:11:57Z" finished-at="2014-10-23T12:15:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@63e4f2]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="editPatient()[pri:2, instance:null]" name="editPatient" duration-ms="46207" started-at="2014-10-23T12:15:54Z" finished-at="2014-10-23T12:16:40Z">
+        </test-method>
+      </class>
+      <class name="testNGfiles.PatientPersonalHistory">
+        <test-method status="PASS" signature="ReceivePersonalHistoryData([[Ljava.lang.Object;)[pri:0, instance:null]" name="ReceivePersonalHistoryData" duration-ms="27253" started-at="2014-10-23T12:24:44Z" finished-at="2014-10-23T12:25:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[[Ljava.lang.Object;@d8fc09]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="EditPersonalHistory([[Ljava.lang.Object;)[pri:0, instance:null]" name="EditPersonalHistory" duration-ms="39294" started-at="2014-10-23T12:25:11Z" depends-on-methods="testNGfiles.PatientPersonalHistory.ReceivePersonalHistoryData" finished-at="2014-10-23T12:25:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[[Ljava.lang.Object;@19271b2]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+      <class name="testNGfiles.Sign_In">
+        <test-method status="PASS" signature="getValue(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:null]" name="getValue" duration-ms="18486" started-at="2014-10-23T12:11:39Z" finished-at="2014-10-23T12:11:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+        </test-method>
+      </class>
+      <class name="testNGfiles.NextofKin">
+        <test-method status="PASS" signature="receiveNOKData([Ljava.lang.Object;)[pri:1, instance:null]" name="receiveNOKData" duration-ms="25584" started-at="2014-10-23T12:16:47Z" finished-at="2014-10-23T12:17:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@1ddd36e]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="editNOKDetails()[pri:2, instance:null]" name="editNOKDetails" duration-ms="24305" started-at="2014-10-23T12:17:12Z" finished-at="2014-10-23T12:17:37Z">
+        </test-method>
+      </class>
+      <class name="testNGfiles.PatientDiagnosis">
+        <test-method status="PASS" signature="PatientDiagnosisAddition([[Ljava.lang.Object;)[pri:0, instance:null]" name="PatientDiagnosisAddition" duration-ms="21396" started-at="2014-10-23T12:23:05Z" finished-at="2014-10-23T12:23:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[[Ljava.lang.Object;@1e2d842]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+      <class name="testNGfiles.PatientGPAddition">
+        <test-method status="PASS" signature="ReceiveGpData([[Ljava.lang.Object;)[pri:0, instance:null]" name="ReceiveGpData" duration-ms="35479" started-at="2014-10-23T12:23:26Z" finished-at="2014-10-23T12:24:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[[Ljava.lang.Object;@11aaeee]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+      <class name="testNGfiles.PrintLabel">
+        <test-method status="PASS" signature="ReadPDFContent()[pri:0, instance:null]" name="ReadPDFContent" duration-ms="64713" started-at="2014-10-23T12:17:37Z" finished-at="2014-10-23T12:18:41Z">
+        </test-method>
+      </class>
+      <class name="testNGfiles.EndUp">
+        <test-method status="PASS" signature="stopServer()[pri:0, instance:null]" name="stopServer" duration-ms="68484" started-at="2014-10-23T12:26:56Z" finished-at="2014-10-23T12:28:04Z">
+        </test-method>
+      </class>
+      <class name="testNGfiles.PatientSummary">
+        <test-method status="PASS" signature="ReceiveComplaintData([[Ljava.lang.Object;)[pri:0, instance:null]" name="ReceiveComplaintData" duration-ms="24883" started-at="2014-10-23T12:24:02Z" finished-at="2014-10-23T12:24:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[[Ljava.lang.Object;@b3e75d]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="EditRecord([[Ljava.lang.Object;)[pri:0, instance:null]" name="EditRecord" duration-ms="11637" started-at="2014-10-23T12:24:27Z" depends-on-methods="testNGfiles.PatientSummary.ReceiveComplaintData" finished-at="2014-10-23T12:24:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[[Ljava.lang.Object;@16685ee]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="DeleteRecord()[pri:0, instance:null]" name="DeleteRecord" duration-ms="5601" started-at="2014-10-23T12:24:38Z" depends-on-methods="testNGfiles.PatientSummary.EditRecord" finished-at="2014-10-23T12:24:44Z">
+        </test-method>
+      </class>
+      <class name="testNGfiles.MoreTest">
+        <test-method status="PASS" signature="receiveData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:null]" name="receiveData" duration-ms="13177" started-at="2014-10-23T12:19:18Z" finished-at="2014-10-23T12:19:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[21755]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+      <class name="testNGfiles.GotoPatient">
+        <test-method status="PASS" signature="PatientPage()[pri:0, instance:null]" name="PatientPage" duration-ms="6381" started-at="2014-10-23T12:16:40Z" finished-at="2014-10-23T12:16:47Z">
+        </test-method>
+      </class>
+      <class name="testNGfiles.AddToWaiting">
+        <test-method status="PASS" signature="receiveData([[Ljava.lang.Object;)[pri:0, instance:null]" name="receiveData" duration-ms="59476" started-at="2014-10-23T12:19:31Z" finished-at="2014-10-23T12:20:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[[Ljava.lang.Object;@13b168c]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+      <class name="testNGfiles.Patient_Report">
+        <test-method status="PASS" signature="PrintReport([[Ljava.lang.Object;)[pri:0, instance:null]" name="PrintReport" duration-ms="72422" started-at="2014-10-23T12:21:52Z" finished-at="2014-10-23T12:23:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[[Ljava.lang.Object;@1e3fbfa]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

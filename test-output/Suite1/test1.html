@@ -1,0 +1,283 @@
+<html>
+<head>
+<title>TestNG:  test1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>test1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>22/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Oct 15 17:53:49 IST 2014</td>
+</tr>
+<tr><td>Total time:</td><td>802 seconds (802930 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>functional </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testNGfiles.AddToWaiting.receiveData()'><b>receiveData</b><br>Test class: testNGfiles.AddToWaiting<br>Parameters: [[Ljava.lang.Object;@32d3c0</td>
+<td><div><pre>org.openqa.selenium.UnhandledAlertException: Modal dialog present: Patient name found
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a6c4449dc285928ba024779344f5423c58&apos;, time: &apos;2014-03-27 11:29:39&apos;
+System info: host: &apos;KMM-DEV-10&apos;, ip: &apos;192.168.1.181&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_60&apos;
+Session ID: bdf1c18e-607a-49a8-83be-9df0cfe37427
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=24.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:174)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:141)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.defaultContent(RemoteWebDriver.java:885)
+	at testNGfiles.AddToWaiting.receiveData(AddToWaiting.java:218)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div><a href='#' onClick='toggleBox("stack-trace26727688", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace26727688'><pre>org.openqa.selenium.UnhandledAlertException: Modal dialog present: Patient name found
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a6c4449dc285928ba024779344f5423c58&apos;, time: &apos;2014-03-27 11:29:39&apos;
+System info: host: &apos;KMM-DEV-10&apos;, ip: &apos;192.168.1.181&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_60&apos;
+Session ID: bdf1c18e-607a-49a8-83be-9df0cfe37427
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=24.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:174)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:141)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.defaultContent(RemoteWebDriver.java:885)
+	at testNGfiles.AddToWaiting.receiveData(AddToWaiting.java:218)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>54</td>
+<td>null</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testNGfiles.MedicalCertificate.DeleteRecord()'><b>DeleteRecord</b><br>Test class: testNGfiles.MedicalCertificate</td>
+<td></td>
+<td>19</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.PatientSummary.DeleteRecord()'><b>DeleteRecord</b><br>Test class: testNGfiles.PatientSummary</td>
+<td></td>
+<td>6</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.PatientSummary.EditRecord()'><b>EditRecord</b><br>Test class: testNGfiles.PatientSummary<br>Parameters: [[Ljava.lang.Object;@ec15a4</td>
+<td></td>
+<td>11</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.PatientDiagnosis.PatientDiagnosisAddition()'><b>PatientDiagnosisAddition</b><br>Test class: testNGfiles.PatientDiagnosis<br>Parameters: [[Ljava.lang.Object;@180e555</td>
+<td></td>
+<td>14</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.GotoPatient.PatientPage()'><b>PatientPage</b><br>Test class: testNGfiles.GotoPatient</td>
+<td></td>
+<td>6</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.Patient_Report.PrintReport()'><b>PrintReport</b><br>Test class: testNGfiles.Patient_Report<br>Parameters: [[Ljava.lang.Object;@1506489</td>
+<td></td>
+<td>72</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.PrintLabel.ReadPDFContent()'><b>ReadPDFContent</b><br>Test class: testNGfiles.PrintLabel</td>
+<td></td>
+<td>56</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.PatientSummary.ReceiveComplaintData()'><b>ReceiveComplaintData</b><br>Test class: testNGfiles.PatientSummary<br>Parameters: [[Ljava.lang.Object;@f87ed8</td>
+<td></td>
+<td>22</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.PatientGPAddition.ReceiveGpData()'><b>ReceiveGpData</b><br>Test class: testNGfiles.PatientGPAddition<br>Parameters: [[Ljava.lang.Object;@4fb319</td>
+<td></td>
+<td>27</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.MedicalCertificate.editData()'><b>editData</b><br>Test class: testNGfiles.MedicalCertificate<br>Parameters: [[Ljava.lang.Object;@7769f7</td>
+<td></td>
+<td>31</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.Hospital.editHospitalData()'><b>editHospitalData</b><br>Test class: testNGfiles.Hospital<br>Parameters: [[Ljava.lang.Object;@1cde5ba</td>
+<td></td>
+<td>19</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.NextofKin.editNOKDetails()'><b>editNOKDetails</b><br>Test class: testNGfiles.NextofKin</td>
+<td></td>
+<td>21</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.RCSampleTest.editPatient()'><b>editPatient</b><br>Test class: testNGfiles.RCSampleTest</td>
+<td></td>
+<td>34</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.Loadurl.getUrl()'><b>getUrl</b><br>Test class: testNGfiles.Loadurl</td>
+<td></td>
+<td>3</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.Sign_In.getValue()'><b>getValue</b><br>Test class: testNGfiles.Sign_In<br>Parameters: admin, a, null</td>
+<td></td>
+<td>7</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.MoreTest.receiveData()'><b>receiveData</b><br>Test class: testNGfiles.MoreTest<br>Parameters: 21755, Yes, No</td>
+<td></td>
+<td>13</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.MedicalCertificate.receiveData()'><b>receiveData</b><br>Test class: testNGfiles.MedicalCertificate<br>Parameters: [[Ljava.lang.Object;@a54986</td>
+<td></td>
+<td>28</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.Hospital.receiveHospitalData()'><b>receiveHospitalData</b><br>Test class: testNGfiles.Hospital<br>Parameters: [[Ljava.lang.Object;@17e2f02</td>
+<td></td>
+<td>19</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.NextofKin.receiveNOKData()'><b>receiveNOKData</b><br>Test class: testNGfiles.NextofKin<br>Parameters: [Ljava.lang.Object;@140561a</td>
+<td></td>
+<td>25</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.RCSampleTest.receivePatientData()'><b>receivePatientData</b><br>Test class: testNGfiles.RCSampleTest<br>Parameters: [Ljava.lang.Object;@d4df3f</td>
+<td></td>
+<td>232</td>
+<td>null</td></tr>
+<tr>
+<td title='testNGfiles.RunTests.startServer()'><b>startServer</b><br>Test class: testNGfiles.RunTests</td>
+<td></td>
+<td>8</td>
+<td>testNGfiles.RunTests@507369</td></tr>
+<tr>
+<td title='testNGfiles.EndUp.stopServer()'><b>stopServer</b><br>Test class: testNGfiles.EndUp</td>
+<td></td>
+<td>62</td>
+<td>null</td></tr>
+</table><p>
+</body>
+</html>
